@@ -1,0 +1,8 @@
+create database if not exists BancoFila;
+use BancoFila;
+
+create table if not exists Paciente(
+id_paciente int auto_increment primary key,
+Nome_paciente varchar(100) not null,
+Cpf_paciente varchar(13) not null
+);
